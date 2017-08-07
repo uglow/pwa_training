@@ -1,0 +1,15 @@
+{
+  "name": "pwa-training",
+  "version": "1.0.0",
+  "description": "Progressive Web App training from Google",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server work/ -p 9999 -s",
+    "test": "http-server \"-- $0\" -p 9999 -s --"
+  },
+  "author": "Brett Uglow <u_glow@hotmail.com> (http://uglow.github.io/)",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "0.10.0"
+  }
+}
