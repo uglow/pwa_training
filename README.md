@@ -13,6 +13,7 @@ This is a work in progress, if you find a mistake, please [file an issue](https:
 ## What you’ll need
 * Chrome 52 or above, though any browser that supports service workers and `cache.addAll()` will work
 * [Web Server for Chrome](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb), or use your own web server of choice.
+  If you clone this repo, run `npm i` then `npm start` to run a web-server that points to the `work` directory, where you will be working.
 * The [sample code](https://github.com/googlecodelabs/your-first-pwapp/archive/master.zip)
 * A text editor
 * Basic knowledge of HTML, CSS and JavaScript
